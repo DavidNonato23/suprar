@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: gray;
+    background-color: black;
 }
 
 header{
@@ -66,23 +66,64 @@ main >section{
 main >section >h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
+    color: rgba(0, 0, 0, 0.949);
+}
+
+main >section >p >a{
     color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 main >section >p{
-    color: rgb(12, 49, 49);
+    color: black;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 main >section.img1{
-    background-image: url(imagem/imagem-1.jpg);
+    background-image: url(imagem/imagem-2.jpg);
     box-shadow: 2px 2px 1px black;  
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
+/*Segunda Section*/
+
+    main >section.texto{
+        box-shadow: 2px 2px 2px black;
+        margin-top: 30px;
+        background-color: rgba(175, 174, 174, 0.879);
+        margin-bottom: 30px;
+    }
+
+    main >section.img2{
+        background-image: url(imagem/imagem-1.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    main >section.img2>ul{
+        border-radius: 3px;
+        background-color: rgba(175, 174, 174, 0.879);
+        border: 2px solid black;
+    }
+
+    main >section.img2 >ul >li{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-weight: bolder;
+    }
+
+    
 
 footer{
     text-align: center;
